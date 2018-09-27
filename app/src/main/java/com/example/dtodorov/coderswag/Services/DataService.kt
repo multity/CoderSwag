@@ -3,7 +3,7 @@ package com.example.dtodorov.coderswag.Services
 import com.example.dtodorov.coderswag.Model.Category
 import com.example.dtodorov.coderswag.Model.Product
 
-class DataService{
+object DataService{
     val categories = listOf(
             Category("SHIRTS","shirtimage"),
             Category("HOODIES", "hoodieimage"),
